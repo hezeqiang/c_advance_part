@@ -18,5 +18,26 @@
     <ClCompile Include="file_operate.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="one_dimension_dis.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="two_dimension.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="class_memory_dis.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="namespace.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="templete.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="class_templete.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="signal_process.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
