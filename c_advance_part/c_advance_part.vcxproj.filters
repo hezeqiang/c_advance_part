@@ -39,5 +39,14 @@
     <ClCompile Include="signal_process.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Struction_pointer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="malloc_use.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="structure-pointer_array.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
