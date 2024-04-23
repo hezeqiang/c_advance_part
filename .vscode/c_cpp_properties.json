@@ -3,8 +3,10 @@
         {
             "name": "Mac",
             "includePath": [
-                "${workspaceFolder}/**"
-                //"/Users/he/Cinclude/eigen/Eigen/**"
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/includes/**"
+
+
             ],
             "defines": [],
             "macFrameworkPath": [
