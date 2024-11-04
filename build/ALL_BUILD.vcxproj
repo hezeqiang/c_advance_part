@@ -173,6 +173,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
+    <ProjectReference Include="C:\Users\13306\OneDrive - m.titech.ac.jp\Coding_Proj\c_advance_part\build\libs\ublas\btl_ublas.vcxproj">
+      <Project>{D63B0AB5-1917-3AC4-BBF0-5ACE210815C6}</Project>
+      <Name>btl_ublas</Name>
+    </ProjectReference>
     <ProjectReference Include="C:\Users\13306\OneDrive - m.titech.ac.jp\Coding_Proj\c_advance_part\build\data\main.vcxproj">
       <Project>{5F65D5E0-22C3-3384-89B1-C578BAE0B3BB}</Project>
       <Name>main</Name>

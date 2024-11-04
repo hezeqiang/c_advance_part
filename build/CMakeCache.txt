@@ -50,17 +50,19 @@ BTL_SOURCE_DIR:STATIC=C:/Users/13306/OneDrive - m.titech.ac.jp/Coding_Proj/c_adv
 //Build benchmark btl_STL
 BUILD_btl_STL:BOOL=OFF
 
+//Build benchmark btl_ublas
+BUILD_btl_ublas:BOOL=ON
+
 //The directory containing a CMake configuration file for Boost.
-Boost_DIR:PATH=Boost_DIR-NOTFOUND
+Boost_DIR:PATH=C:/Users/13306/anaconda3/Library/lib/cmake/Boost-1.82.0
 
 //Path to a file.
-Boost_INCLUDE_DIR:PATH=Boost_INCLUDE_DIR-NOTFOUND
+Boost_INCLUDE_DIR:PATH=C:/Users/13306/anaconda3/Library/include
 
 //Boost system library (debug)
 Boost_SYSTEM_LIBRARY_DEBUG:FILEPATH=Boost_SYSTEM_LIBRARY_DEBUG-NOTFOUND
 
-//Boost system library (release)
-Boost_SYSTEM_LIBRARY_RELEASE:FILEPATH=Boost_SYSTEM_LIBRARY_RELEASE-NOTFOUND
+Boost_SYSTEM_LIBRARY_RELEASE:STRING=C:/Users/13306/anaconda3/Library/lib/libboost_system.lib
 
 //Path to a program.
 CMAKE_AR:FILEPATH=C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.39.33519/bin/Hostx64/x64/lib.exe
@@ -266,6 +268,12 @@ TVMET_INCLUDE_DIR:PATH=TVMET_INCLUDE_DIR-NOTFOUND
 //The directory containing a CMake configuration file for Tensor.
 Tensor_DIR:PATH=Tensor_DIR-NOTFOUND
 
+//The directory containing a CMake configuration file for boost_headers.
+boost_headers_DIR:PATH=C:/Users/13306/anaconda3/Library/lib/cmake/boost_headers-1.82.0
+
+//The directory containing a CMake configuration file for boost_system.
+boost_system_DIR:PATH=C:/Users/13306/anaconda3/Library/lib/cmake/boost_system-1.82.0
+
 
 ########################
 # INTERNAL cache entries
@@ -413,6 +421,8 @@ CMAKE_STATIC_LINKER_FLAGS_RELEASE-ADVANCED:INTERNAL=1
 CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
+//Details about finding Boost
+FIND_PACKAGE_MESSAGE_DETAILS_Boost:INTERNAL=[C:/Users/13306/anaconda3/Library/lib/cmake/Boost-1.82.0/BoostConfig.cmake][cfound components: system ][v1.82.0()]
 //ADVANCED property for variable: GMM_INCLUDE_DIR
 GMM_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: MKL_LIBRARIES
@@ -431,4 +441,8 @@ _Boost_INCLUDE_DIR_LAST:INTERNAL=Boost_INCLUDE_DIR-NOTFOUND
 _Boost_NAMESPACE_LAST:INTERNAL=boost
 //Last used Boost_USE_MULTITHREADED value.
 _Boost_USE_MULTITHREADED_LAST:INTERNAL=TRUE
+//ADVANCED property for variable: boost_headers_DIR
+boost_headers_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: boost_system_DIR
+boost_system_DIR-ADVANCED:INTERNAL=1
 

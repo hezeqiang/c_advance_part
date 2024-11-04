@@ -1,14 +1,25 @@
 #include <iostream>
 #include <Eigen/Dense>
- 
+
 using Eigen::MatrixXd;
- 
+
+// Forward declaration of create_r_c function
+MatrixXd create_r_c(int rows, int cols);
+
 int main()
 {
-  MatrixXd m(2,2);
-  m(0,0) = 3;
-  m(1,0) = 2.5;
-  m(0,1) = -1;
-  m(1,1) = m(1,0) + m(0,1);
-  std::cout << m << std::endl;
+    // Initialize a 2x2 matrix using the create_r_c function
+    MatrixXd m = create_r_c(2, 2);
+    // Print the matrix
+    std::cout << m << std::endl;
+
+    return 0;
+}
+
+// Implementation of create_r_c function
+MatrixXd create_r_c(int rows, int cols)
+{
+    // Create a random matrix of the given size
+    MatrixXd m = MatrixXd::Random(rows, cols);
+    return m;
 }

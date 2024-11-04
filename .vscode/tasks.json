@@ -30,10 +30,7 @@
             "command": "cl.exe",
             "args": [
                 "-I",
-                "${workspaceFolder}/includes/eigen",
-                "/Zi",
-                "/EHsc",
-                "/nologo",
+                "${workspaceFolder}\\includes\\eigen",
                 "/Fe${fileDirname}\\${fileBasenameNoExtension}.exe",
                 "${file}"
             ],
